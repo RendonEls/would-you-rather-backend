@@ -1,9 +1,14 @@
 const mongoose = require('../db/connection')
 
-const Question = new mongoose.Schema ({
+const QuestionSchema = new mongoose.Schema ({
     content: String,
     count: Number
 })
 
+const Question = mongoose.model("Question", QuestionSchema)
 
-module.export = mongoose.model("Question", Question)
+module.exports = {
+    Question
+}
+
+// module.export = mongoose.model("Question", QuestionSchema)
