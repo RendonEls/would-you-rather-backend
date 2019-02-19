@@ -1,11 +1,27 @@
 [
-    {
-        "content": "Eat a Banana",
-        "count": 1
+    { 
+        "question1": "Eat a Banana",
+        "question2": "Drink Milk",
+        "count1": 0,
+        "count2": 0
     },
-    {
-        "content": "Drink Milk",
-        "count": 2
+    { 
+        "question1": "Own a Cat",
+        "question2": "Own a dog",
+        "count1": 0,
+        "count2": 0
+    },
+    { 
+        "question1": "Live in the mountains",
+        "question2": "Live by the beach",
+        "count1": 0,
+        "count2": 1
+    },
+    { 
+        "question1": "Be super sweaty hot",
+        "question2": "Be freezing cold",
+        "count1": 0,
+        "count2": 0
     }
 ]
 
