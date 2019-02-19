@@ -3,7 +3,7 @@ const router = express.Router()
 
 
 router.use('/play', require('./play'))
-router.use('/create', require('./createQuestion'))
+router.use('/create', require('./newQuestion'))
 
 router.use('/options', require('./options'))
 router.use('/stats', require('./stats'))
