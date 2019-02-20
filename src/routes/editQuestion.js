@@ -12,7 +12,14 @@ router.put("/", (req, res) =>{
     res.send("This is PUT question route")
 })
 router.delete("/", (req, res) =>{
-    res.send("This is a Delete question route")
+    console.log("Delete request sent");
+    // Question.find({_id: req.params.id}).then()
+
+    // Question.find({ the target's id by which button was pressed on the frontend (each question has its own button )})
+
+    Question.findOneAndRemove({ _id: req.body.id }).then(() => {
+        res.Redirect("/edit")
+    })
 })
 
 
