@@ -9,7 +9,15 @@ router.get("/", (req, res) =>{
     // res.send("This is a edit question page")
 })
 router.put("/", (req, res) =>{
-    res.send("This is PUT question route")
+    // res.send("This is PUT question route")
+    console.log("PUT request sent")
+    console.log(req.body._id)
+    Question.findOneAndUpdate({ id: req.body_id }, {
+        question1: req.body.question1
+    })
+    .then(() => {
+
+    })
 })
 router.delete("/", (req, res) =>{
     console.log("Delete request sent");
