@@ -1,8 +1,8 @@
-const cors = require('cors')
 const express = require('express')
 const parser = require('body-parser')
 const mongoose = require('./src/db/connection')
 const routes = require('./src/routes/index')
+const cors = require('cors')
 
 
 const app = express()
