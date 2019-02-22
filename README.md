@@ -10,6 +10,11 @@ This app has been deloyed to Heroku. Given how slow Heroku may be, you may find 
 # Deployed URL
  https://sei-wouldyourather.surge.sh/
 
+# Repositories:
+
+Frontend: https://github.com/bananabrann/would-you-rather-frontend
+Backend: https://github.com/RendonEls/would-you-rather-backend
+
  # Screenshot Sample
 
 ![Screenshot](./planning/images/screenShot.png)
