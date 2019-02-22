@@ -13,6 +13,7 @@ This app has been deloyed to Heroku. Given how slow Heroku may be, you may find 
 # Repositories:
 
 Frontend: https://github.com/bananabrann/would-you-rather-frontend
+
 Backend: https://github.com/RendonEls/would-you-rather-backend
 
  # Screenshot Sample
@@ -27,11 +28,10 @@ As of Feb. 22, 2019:
     3. Clean up CSS
 
 # Future Feature Adds:
-1. Would like to add the ability to upload screenshots or show a small preview of the current site
-2. Add a line that pulls random affirmations for each login at the top of dashboard page
-3. Add password reset or "forgot password" function
-4. Add password verification on signup form
-5. Add logout function
+1. Add option to pull questions from a "PG13" database
+2. Make the app 100% mobile friendly
+3. Add Stats options to show how many times a user selected each option per question set
+4. Finish About section 
 
 # Project Plan for MVP:
 
