@@ -6,7 +6,7 @@ console.log('create question route ')
 
 router.get("/", (req, res) =>{
     console.log("this is getting")
-    res.send("create question here")
+    res.send(console.log('hello from new question'))
 })
 router.post("/", (req, res) =>{
     Question.create({
