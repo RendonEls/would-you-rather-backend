@@ -15,7 +15,8 @@ router.post("/", (req, res) =>{
         count1: 0,
         count2: 0
     })
-    .then((newquestion) => console.log(newquestion))
+    .then(() => {
+        res.sendStatus(200)})
 })
 
 
