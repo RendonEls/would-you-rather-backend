@@ -10,8 +10,8 @@ const app = express()
 app.set('port', process.env.PORT || 3001)
 
 app.use(parser.json())
-app.use(cors())
 
+app.use(cors())
 app.use('/', routes)
 
 
