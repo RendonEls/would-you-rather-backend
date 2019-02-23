@@ -38,7 +38,7 @@ As of Feb. 22, 2019:
 ![Plan](./planning/images/Planning-chart.png)
 
 
-###Planning
+### Planning
 
 
   Day 1: 
@@ -64,7 +64,7 @@ As of Feb. 22, 2019:
   6. Add logic on backend for POST of additional questions
   7. Plan goals for Day 3
 
-  day 3:
+  Day 3:
   1. Add Delete and Edit buttons to frontend
   2. Add PUT logic for frontend
   3. Add PUT logic for backend
@@ -73,11 +73,11 @@ As of Feb. 22, 2019:
   6. Play day 4 goals
   
 
-  day 4:
+  Day 4:
   1. finish update/delete logic
   2. Plan day 5 goals
 
-  day 5:
+  Day 5:
   1. Deploy app
   2. user documentation
   3. with available time add styling/refactor
